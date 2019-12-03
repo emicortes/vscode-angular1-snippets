@@ -95,7 +95,8 @@
       "",
       "\t/* @ngInject */",
       "\tfunction ${5:Controller}Controller() {",
-      "\t\tvar \\vm = this;",
+      "\t\t/* jshint validthis:true */",
+      "\t\tvar vm = this;",
       "\t\t$0",
       
       "\t}",
